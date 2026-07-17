@@ -20,19 +20,10 @@
   </head>
   <body>
     <header class="site-header" aria-label="Primary">
-      <a class="brand" href="#top" aria-label="Future Australiana home">
-        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-          <path class="mark-shield" d="M24 5 39 10v12c0 10-6 17-15 21C15 39 9 32 9 22V10l15-5Z"/>
-          <path class="mark-field" d="M24 10 34 13.4v8.1c0 7-3.8 11.8-10 15.1-6.2-3.3-10-8.1-10-15.1v-8.1L24 10Z"/>
-          <path class="mark-star" d="m24 14 1.6 5 5.1-1.4-3.2 4.2 4.4 2.9-5.3.2.8 5.2-3.4-4-3.4 4 .8-5.2-5.3-.2 4.4-2.9-3.2-4.2 5.1 1.4L24 14Z"/>
-          <path class="mark-sprig" d="M14 31c4.8-2.7 8.1-2.5 10 .2 1.9-2.7 5.2-2.9 10-.2" />
-        </svg>
-        <span>Future Australiana</span>
-      </a>
+      <a class="brand" href="#top" aria-label="Future Australiana home">Future Australiana</a>
       <nav class="nav-links" aria-label="Site">
-        <a href="#episodes">Episodes</a>
         <a href="#about">About</a>
-        <a href="#subscribe">Subscribe</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -52,77 +43,9 @@
           <p class="hero-copy">
             Conversations about the people, companies and ideas shaping Australia's future.
           </p>
-          <div class="hero-actions" aria-label="Podcast actions">
-            <a class="button button-primary" href="#subscribe">Get the launch note</a>
-            <a class="button button-ghost" href="#episodes">See the topics</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="now-playing" id="trailer" aria-labelledby="trailer-title">
-        <div class="section-inner player-layout">
-          <div>
-            <p class="eyebrow">In development</p>
-            <h2 id="trailer-title">A show about what Australia can build, back and become.</h2>
-            <p>
-              Future Australiana will sit at the intersection of frontier
-              technology, industry, capital, policy, culture and national life.
-              Serious, accessible conversations with people doing the work.
-            </p>
-          </div>
-
-          <article class="player" aria-label="Launch preview">
-            <div class="player-topline">
-              <span>00:00</span>
-              <span>04:38</span>
-            </div>
-            <div class="progress" aria-hidden="true">
-              <span></span>
-            </div>
-            <div class="player-controls">
-              <button class="play-button" type="button" aria-label="Preview launch note" data-play>
-                <span class="play-icon" aria-hidden="true"></span>
-              </button>
-              <div>
-                <strong>Future Australiana: launch note</strong>
-                <p>First conversations coming soon</p>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="episodes" id="episodes" aria-labelledby="episodes-title">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="eyebrow">Guest and topic pipeline</p>
-            <h2 id="episodes-title">Early conversations</h2>
-          </div>
-          <div class="episode-grid">
-            <article class="episode-card">
-              <span class="episode-number">01</span>
-              <h3>Silicon Quantum Computing</h3>
-              <p>
-                Quantum basics, Australian advantage, patient capital, talent and
-                whether silicon is a constraint or a strategic edge.
-              </p>
-            </article>
-            <article class="episode-card">
-              <span class="episode-number">02</span>
-              <h3>Australian Space and Launch</h3>
-              <p>
-                Sovereign launch capability, frontier industry, defence-adjacent
-                technology and the ambition required to build globally from here.
-              </p>
-            </article>
-            <article class="episode-card">
-              <span class="episode-number">03</span>
-              <h3>AI, Institutions and Human Dignity</h3>
-              <p>
-                Frontier models, Australian participation in AI, education, work,
-                moral limits and the institutions that shape adoption.
-              </p>
-            </article>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:hello@futureaustraliana.com?subject=Future%20Australiana%20tip%20or%20idea">Send a tip or idea</a>
+            <a class="button button-ghost" href="#about">Read the premise</a>
           </div>
         </div>
       </section>
@@ -136,37 +59,46 @@
           <div class="about-copy">
             <p>
               Future Australiana is a long-form interview show exploring the
-              forces shaping Australia's next chapter: quantum computing, AI,
-              space, advanced manufacturing, energy, finance, infrastructure,
-              faith, culture and public policy.
+              forces shaping Australia's next chapter: frontier technology,
+              industry, capital, science, energy, infrastructure, culture,
+              faith and public policy.
             </p>
             <p>
-              The tone is serious but accessible: plainspoken conversations with
-              founders, investors, scientists, operators, public leaders and
-              thinkers about what Australia can build, back and become.
+              The show is built around plainspoken conversations with founders,
+              investors, scientists, operators, public leaders and thinkers about
+              what Australia can build, back and become.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="listen" id="subscribe" aria-labelledby="subscribe-title">
-        <div class="section-inner listen-layout">
+      <section class="themes" aria-labelledby="themes-title">
+        <div class="section-inner theme-layout">
           <div>
-            <p class="eyebrow">Launch list</p>
-            <h2 id="subscribe-title">Be there for episode one</h2>
+            <p class="eyebrow">What it follows</p>
+            <h2 id="themes-title">People doing serious work on the country's future.</h2>
           </div>
-          <form class="signup" data-signup>
-            <label for="email">Email</label>
-            <div class="signup-row">
-              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
-              <button class="button button-primary" type="submit">Notify me</button>
-            </div>
-            <p class="form-note" data-form-note>No spam. Just launch notes, new conversations and major updates.</p>
-          </form>
-          <div class="platforms" aria-label="Podcast platforms">
-            <button type="button" disabled>Apple Podcasts</button>
-            <button type="button" disabled>Spotify</button>
-            <button type="button" disabled>RSS</button>
+          <div class="theme-list" aria-label="Future Australiana themes">
+            <p>Frontier technology: AI, quantum, space and advanced manufacturing.</p>
+            <p>National capability: energy, minerals, infrastructure, water and defence-adjacent industry.</p>
+            <p>Capital and ambition: founders, markets, institutions and Australian companies with global reach.</p>
+            <p>Culture and ethics: faith, work, education, human dignity and the social questions raised by technology.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-inner contact-layout">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Tips, guests, ideas and questions are welcome.</h2>
+          </div>
+          <div class="contact-copy">
+            <p>
+              If you know a founder, scientist, operator, investor, public leader
+              or institution that belongs in this conversation, write in.
+            </p>
+            <a class="button button-primary" href="mailto:hello@futureaustraliana.com?subject=Future%20Australiana%20tip%20or%20idea">hello@futureaustraliana.com</a>
           </div>
         </div>
       </section>
@@ -174,9 +106,7 @@
 
     <footer class="site-footer">
       <span>Future Australiana</span>
-      <a href="mailto:hello@futureaustraliana.com?subject=Future%20Australiana%20guest%20suggestion">Suggest a guest or topic</a>
+      <a href="mailto:hello@futureaustraliana.com?subject=Future%20Australiana%20tip%20or%20idea">Send a tip or idea</a>
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
